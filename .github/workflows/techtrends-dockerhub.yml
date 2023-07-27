@@ -30,4 +30,4 @@ jobs:
         name: Build and push
         run: |
           docker build -t techtrends:latest project/techtrends/.
-          docker push techtrends:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/techtrends:latest
