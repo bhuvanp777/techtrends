@@ -29,6 +29,6 @@ jobs:
       -
         name: Build and push
         run: |
-          docker build -t techtrends:latest project/techtrends/.
+          docker build -t tech/techtrends:latest project/techtrends/.
           docker images
           docker push tech/techtrends:latest
