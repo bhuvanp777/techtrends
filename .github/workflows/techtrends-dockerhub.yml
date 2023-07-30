@@ -28,4 +28,4 @@ jobs:
           context: ./project/techtrends
           platforms: linux/amd64
           push: true
-          tags: bhuvanp7777/udacity2:latest
+          tags: bhuvanp7777/tech:latest
