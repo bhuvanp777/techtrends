@@ -27,4 +27,4 @@ jobs:
         with:
           context: ./project/techtrends
           push: true
-          tags: sample:latest
+          tags: bhuvanp7777/udacity2:latest
